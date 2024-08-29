@@ -5,7 +5,6 @@ body {
 .container {
     display: flex;
     justify-content: center;
-    padding-top: 10%;
 }
 
 img {
@@ -15,10 +14,15 @@ img {
 }
 
 .card {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     border-radius: 10px;
-    display: flex;
     width: 400px;
-    height: 561px;
+    height: 531px;
     background-color: #F2E205;
     text-align: center;
 }
