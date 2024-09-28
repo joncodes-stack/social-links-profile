@@ -92,10 +92,9 @@ a:hover{
     color: #333333;
 }
 
-
 /* Mobile */
 @media (max-width: 425px) {
     .card {
-        width: 300px;
+        width: 375px;
     }
 }
