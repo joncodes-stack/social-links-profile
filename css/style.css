@@ -95,6 +95,6 @@ a:hover{
 /* Mobile */
 @media (max-width: 425px) {
     .card {
-        width: 375px;
+        width: 327px;
     }
 }
