@@ -98,10 +98,3 @@ a:hover{
         margin-top: 30%;
     }
 }
-
-/* Mobile */
-@media (max-width: 425px) {
-    .card {
-        margin-top: 50%;
-    }
-}
