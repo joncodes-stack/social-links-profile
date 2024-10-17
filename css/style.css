@@ -1,8 +1,5 @@
 body {
     background-color: #141414;
-}
-
-.container {
     display: flex;
     justify-content: center;
 }
@@ -14,25 +11,12 @@ img {
 }
 
 .card {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
     border-radius: 10px;
-    display: flex;
     width: 360px;
-    height: 490px;
+    /* height: 490px; */
     background-color: #1F1F1F;
     text-align: center;
-}
-
-.card-body {
-    display: block;
-    align-items: center;
-    height: 90%;
-    width: 100%;
+    padding: 30px;
 }
 
 .profile-pic {
@@ -66,22 +50,15 @@ h2 {
     margin-top: 24px;
 }
 
-.links{
-    margin-top: 18px;
-    display: grid;
-    row-gap: 16px;
-    align-items: center;
-    justify-content: center;
-}
-
-a {
-    width: 240px;
+.links a {
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
     text-decoration: none;
-    padding: 10px 20px;
     border-radius: 8px;
     font-family: 'Inter';
     font-weight: bold;
-    text-align: center;
     color: white;
     font-size: 14px;
     background-color: #333333;
